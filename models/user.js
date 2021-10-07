@@ -1,5 +1,5 @@
 const Subscriber = require("./subscriber");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcrypt-nodejs");
 const randToken = require("rand-token");
 const passportLocalMongoose = require("passport-local-mongoose");
 const mongoose = require("mongoose"),
